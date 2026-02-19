@@ -1,293 +1,340 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <title>Simini Agribusiness Academy - Practical Agricultural Training</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="agricultural training, agribusiness, South Africa, youth farmers, women farmers, emerging farmers, Howick, KwaZulu-Natal" name="keywords">
-        <meta content="Simini Agribusiness Academy is a practical agricultural training academy based on a working farm in rural South Africa. We train youth, women and emerging farmers to become innovative, profitable agricultural entrepreneurs." name="description">
+<head>
+    <meta charset="utf-8">
+    <title>Simini Agribusiness Academy - Practical Agricultural Training</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="agricultural training, agribusiness, South Africa, youth farmers, women farmers, emerging farmers, Howick, KwaZulu-Natal" name="keywords">
+    <meta content="Simini Agribusiness Academy is a practical agricultural training academy based on a working farm in rural South Africa. We train youth, women and emerging farmers to become innovative, profitable agricultural entrepreneurs." name="description">
 
-        <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap" rel="stylesheet"> 
+    <!-- Google Fonts (Modern Pair) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
 
-        <!-- Icon Font Stylesheet -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Icon Fonts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-        <!-- Libraries Stylesheet -->
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <!-- AOS (Animate on Scroll) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-        <!-- Customized Bootstrap Stylesheet -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap & Custom Styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
 
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
-
-    <body>
-        <!-- Spinner Start -->
-        <div id="spinner" class="show position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-grow text-primary" role="status"></div>
-        </div>
-        <!-- Spinner End -->
-
-        <!-- Topbar Start -->
-<div class="container-fluid bg-white py-2 d-none d-md-flex">
-    <div class="container">
-        <div class="d-flex justify-content-between topbar">
-            <div class="top-info">
-                <!-- Changed text-white-50 to text-dark -->
-                <small class="me-3 text-dark"><a href="#"><i class="fas fa-map-marker-alt me-2 text-secondary"></i></a>R103 Old Main Road, Howick, KwaZulu-Natal, South Africa</small>
-                <small class="me-3 text-dark"><a href="#"><i class="fas fa-envelope me-2 text-secondary"></i></a>informationbooth1@gmail.com</small>
-            </div>
-            <div id="note" class="text-secondary d-none d-xl-flex"><small>Registration: January-February & June-July</small></div>
-            <div class="top-link">
-                <!-- Replaced bg-light with btn-outline-dark for white background -->
-                <a href="" class="btn-outline-dark btn btn-sm-square rounded-circle"><i class="fab fa-facebook-f text-primary"></i></a>
-                <a href="" class="btn-outline-dark btn btn-sm-square rounded-circle"><i class="fab fa-twitter text-primary"></i></a>
-                <a href="" class="btn-outline-dark btn btn-sm-square rounded-circle"><i class="fab fa-instagram text-primary"></i></a>
-                <a href="" class="btn-outline-dark btn btn-sm-square rounded-circle me-0"><i class="fab fa-linkedin-in text-primary"></i></a>
-            </div>
-        </div>
+<body>
+    <!-- Spinner -->
+    <div id="spinner" class="show position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
     </div>
-</div>
-<!-- Topbar End -->
 
-        <!-- Navbar Start -->
-        <div class="container-fluid bg-primary">
-            <div class="container">
-                <nav class="navbar navbar-dark navbar-expand-lg py-0">
-                    <a href="index.html" class="navbar-brand">
-                        <h1 class="text-white fw-bold d-block">Simini<span class="text-secondary">Agri</span>Business</h1>
-                    </a>
-                    <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
-                      <div class="navbar-nav ms-auto mx-xl-auto p-0">
-    <a href="index.html" class="nav-item nav-link active text-secondary">Home</a>
-    <a href="about.html" class="nav-item nav-link">About</a>
-    <a href="service.html" class="nav-item nav-link">Training</a>
-    <a href="blog.html" class="nav-item nav-link">Impact</a>
-    <!-- Split Contact and Enroll -->
-    <a href="contact.html" class="nav-item nav-link">Contact</a>
-    <a href="contact.html" class="nav-item nav-link btn btn-primary text-white px-3 ms-2">Enroll</a>
-</div>
-                    </div>
-                   <div class="d-none d-xl-flex flex-shrink-0">
-    <div id="phone-tada" class="d-flex align-items-center justify-content-center me-4">
-        <a href="tel:0729218956" class="position-relative animated tada infinite" aria-label="Call us">
-            <i class="fa fa-phone-alt text-white fa-2x"></i>
-            <div class="position-absolute" style="top: -7px; left: 20px;">
-                <span><i class="fa fa-comment-dots text-secondary"></i></span>
-            </div>
-        </a>
-    </div>
-    <div class="d-flex flex-column pe-4 border-end">
-        <span class="text-white-50">Have any questions?</span>
-        <span class="text-secondary">Email us anytime</span>
-    </div>
-    <div class="d-flex align-items-center justify-content-center ms-4 ">
-        <a href="#"><i class="bi bi-search text-white fa-2x"></i> </a>
-    </div>
-</div>
-                </nav>
-            </div>
-        </div>
-        <!-- Navbar End -->
-
-        <!-- Carousel Start -->
-        <div class="container-fluid px-0">
-            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
-                    <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
-                </ol>
-                <div class="carousel-inner" role="listbox">
-                    <div class="carousel-item active">
-                        <img src="img/Home1.jpg" class="img-fluid" alt="Young farmers training in field" style="width: 100%; height: 600px; object-fit: cover;">
-                        <div class="carousel-caption">
-                            <div class="container carousel-content">
-                                <h6 class="text-secondary h4 animated fadeInUp">Practical Agricultural Training</h6>
-                                <h1 class="text-white display-1 mb-4 animated fadeInRight">Transforming Youth into Agripreneurs</h1>
-                                <p class="mb-4 text-white fs-5 animated fadeInDown">Based on a working farm in rural South Africa, we train youth, women and emerging farmers to become innovative, profitable agricultural entrepreneurs—not just farm labourers.</p>
-                                <a href="about.html" class="me-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Read More</button></a>
-                                <a href="contact.html" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contact Us</button></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/Home3.webp" class="img-fluid" alt="Greenhouse farming training" style="width: 100%; height: 600px; object-fit: cover;">
-                        <div class="carousel-caption">
-                            <div class="container carousel-content">
-                                <h6 class="text-secondary h4 animated fadeInUp">Farm + Business + Market</h6>
-                                <h1 class="text-white display-1 mb-4 animated fadeInLeft">Produce, Manage & Sell</h1>
-                                <p class="mb-4 text-white fs-5 animated fadeInDown">Our comprehensive curriculum combines practical farming, business training, and market access to create self-sustaining agricultural entrepreneurs.</p>
-                                <a href="about.html" class="me-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Read More</button></a>
-                                <a href="contact.html" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contact Us</button></a>
-                            </div>
-                        </div>
-                    </div>
+    <!-- Topbar -->
+    <div class="container-fluid bg-white py-2 d-none d-md-flex">
+        <div class="container">
+            <div class="d-flex justify-content-between topbar">
+                <div class="top-info">
+                    <small class="me-3 text-dark"><a href="#"><i class="fas fa-map-marker-alt me-2 text-secondary"></i></a>R103 Old Main Road, Howick, KwaZulu-Natal, South Africa</small>
+                    <small class="me-3 text-dark"><a href="#"><i class="fas fa-envelope me-2 text-secondary"></i></a>informationbooth1@gmail.com</small>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
+                <div id="note" class="text-secondary d-none d-xl-flex"><small>Registration: January-February & June-July</small></div>
+                <div class="top-link">
+                    <a href="" class="btn-outline-dark btn btn-sm-square rounded-circle"><i class="fab fa-facebook-f text-primary"></i></a>
+                    <a href="" class="btn-outline-dark btn btn-sm-square rounded-circle"><i class="fab fa-twitter text-primary"></i></a>
+                    <a href="" class="btn-outline-dark btn btn-sm-square rounded-circle"><i class="fab fa-instagram text-primary"></i></a>
+                    <a href="" class="btn-outline-dark btn btn-sm-square rounded-circle me-0"><i class="fab fa-linkedin-in text-primary"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar (Sticky) -->
+    <div class="container-fluid bg-primary sticky-navbar">
+        <div class="container">
+            <nav class="navbar navbar-dark navbar-expand-lg py-0">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="text-white fw-bold d-block">Simini<span class="text-secondary">Agri</span>Business</h1>
+                </a>
+                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
+                <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto mx-xl-auto p-0">
+                        <a href="index.html" class="nav-item nav-link active text-secondary">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="service.html" class="nav-item nav-link">Training</a>
+                        <a href="blog.html" class="nav-item nav-link">Impact</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <a href="contact.html" class="nav-item nav-link btn btn-primary text-white px-3 ms-2">Enroll</a>
+                    </div>
+                </div>
+                <div class="d-none d-xl-flex flex-shrink-0">
+                    <div id="phone-tada" class="d-flex align-items-center justify-content-center me-4">
+                        <a href="tel:0729218956" class="position-relative animated tada infinite" aria-label="Call us">
+                            <i class="fa fa-phone-alt text-white fa-2x"></i>
+                            <div class="position-absolute" style="top: -7px; left: 20px;">
+                                <span><i class="fa fa-comment-dots text-secondary"></i></span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="d-flex flex-column pe-4 border-end">
+                        <span class="text-white-50">Have any questions?</span>
+                        <span class="text-secondary">Email us anytime</span>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center ms-4">
+                        <a href="#"><i class="bi bi-search text-white fa-2x"></i></a>
+                    </div>
+                </div>
+            </nav>
         </div>
-        <!-- Carousel End -->
+    </div>
 
-
-        <!-- Fact Start -->
-       <!-- Fact Start -->
-<div class="container-fluid bg-secondary py-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3 wow fadeIn" data-wow-delay=".1s">
-                <div class="d-flex counter">
-                    <h1 class="me-3 text-primary counter-value">100</h1>
-                    <h5 class="text-white mt-1">Percent practical hands-on training</h5>
+    <!-- Carousel -->
+    <div class="container-fluid px-0">
+        <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img src="img/Home1.jpg" class="img-fluid" alt="Young farmers training in field" style="width: 100%; height: 600px; object-fit: cover;">
+                    <div class="carousel-caption">
+                        <div class="container carousel-content">
+                            <h6 class="text-secondary h4 animated fadeInUp" data-aos="fade-up">Practical Agricultural Training</h6>
+                            <h1 class="text-white display-1 mb-4 animated fadeInRight" data-aos="fade-right">Transforming Youth into Agripreneurs</h1>
+                            <p class="mb-4 text-white fs-5 animated fadeInDown" data-aos="fade-down">Based on a working farm in rural South Africa, we train youth, women and emerging farmers to become innovative, profitable agricultural entrepreneurs—not just farm labourers.</p>
+                            <a href="about.html" class="me-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Read More</button></a>
+                            <a href="contact.html" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contact Us</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Home3.webp" class="img-fluid" alt="Greenhouse farming training" style="width: 100%; height: 600px; object-fit: cover;">
+                    <div class="carousel-caption">
+                        <div class="container carousel-content">
+                            <h6 class="text-secondary h4 animated fadeInUp" data-aos="fade-up">Farm + Business + Market</h6>
+                            <h1 class="text-white display-1 mb-4 animated fadeInLeft" data-aos="fade-left">Produce, Manage & Sell</h1>
+                            <p class="mb-4 text-white fs-5 animated fadeInDown" data-aos="fade-down">Our comprehensive curriculum combines practical farming, business training, and market access to create self-sustaining agricultural entrepreneurs.</p>
+                            <a href="about.html" class="me-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Read More</button></a>
+                            <a href="contact.html" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contact Us</button></a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-3 wow fadeIn" data-wow-delay=".3s">
-                <div class="d-flex counter">
-                    <h1 class="me-3 text-primary counter-value">3</h1>
-                    <h5 class="text-white mt-1">Core pillars: Farming + Business + Market</h5>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Fact Counter with Icons -->
+    <div class="container-fluid bg-secondary py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 wow fadeIn" data-wow-delay=".1s" data-aos="fade-up">
+                    <div class="d-flex counter">
+                        <i class="fas fa-percent fa-3x text-primary me-3"></i>
+                        <div>
+                            <h1 class="text-primary counter-value">100</h1>
+                            <h5 class="text-white mt-1">Percent practical hands-on training</h5>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-3 wow fadeIn" data-wow-delay=".7s">
-                <div class="d-flex counter">
-                    <h1 class="me-3 text-primary counter-value">2</h1>
-                    <h5 class="text-white mt-1">Registration sessions per year</h5>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay=".3s" data-aos="fade-up" data-aos-delay="100">
+                    <div class="d-flex counter">
+                        <i class="fas fa-layer-group fa-3x text-primary me-3"></i>
+                        <div>
+                            <h1 class="text-primary counter-value">3</h1>
+                            <h5 class="text-white mt-1">Core pillars: Farming + Business + Market</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay=".7s" data-aos="fade-up" data-aos-delay="200">
+                    <div class="d-flex counter">
+                        <i class="fas fa-calendar-alt fa-3x text-primary me-3"></i>
+                        <div>
+                            <h1 class="text-primary counter-value">2</h1>
+                            <h5 class="text-white mt-1">Registration sessions per year</h5>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- Fact End -->
-        <!-- Fact End -->
 
-
-        <!-- About Start -->
-        <div class="container-fluid py-5 my-5">
-            <div class="container pt-5">
-                <div class="row g-5">
-                    <div class="col-lg-5 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".3s">
-                        <div class="h-100 position-relative">
-                            <img src="img/about-2.jpg" class="img-fluid w-75 rounded" alt="Young farmers learning" style="margin-bottom: 25%;">
-                            <div class="position-absolute w-75" style="top: 25%; left: 25%;">
-                                <img src="img/about-1.jpg" class="img-fluid w-100 rounded" alt="Rural farm training">
-                            </div>
+    <!-- About Start -->
+    <div class="container-fluid py-5 my-5">
+        <div class="container pt-5">
+            <div class="row g-5">
+                <div class="col-lg-5 col-md-6 col-sm-12" data-aos="fade-right">
+                    <div class="h-100 position-relative">
+                        <img src="img/about-2.jpg" class="img-fluid w-75 rounded" alt="Young farmers learning" style="margin-bottom: 25%;">
+                        <div class="position-absolute w-75" style="top: 25%; left: 25%;">
+                            <img src="img/about-1.jpg" class="img-fluid w-100 rounded" alt="Rural farm training">
                         </div>
                     </div>
-                    <div class="col-lg-7 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".5s">
-                        <h5 class="text-primary">About Us</h5>
-                        <h1 class="mb-4">Creating Agripreneurs, Not Just Farm Labourers</h1>
-                        <p>Simini Agribusiness Academy is a practical agricultural training institution based on a working farm in rural South Africa. We exist to curb youth unemployment and address the critical lack of business skills in agriculture.</p>
-                        <p class="mb-4">We bridge the gap by combining practical farming experience with business training and market access. Our students learn to produce, manage, and sell because agriculture is about far more than planting. They leave as agripreneurs—innovative, independent, and ready to start their own agribusinesses.</p>
-                        <a href="about.html" class="btn btn-secondary rounded-pill px-5 py-3 text-white">More Details</a>
+                </div>
+                <div class="col-lg-7 col-md-6 col-sm-12" data-aos="fade-left">
+                    <h5 class="text-primary">About Us</h5>
+                    <h1 class="mb-4">Creating Agripreneurs, Not Just Farm Labourers</h1>
+                    <p>Simini Agribusiness Academy is a practical agricultural training institution based on a working farm in rural South Africa. We exist to curb youth unemployment and address the critical lack of business skills in agriculture.</p>
+                    <p class="mb-4">We bridge the gap by combining practical farming experience with business training and market access. Our students learn to produce, manage, and sell because agriculture is about far more than planting. They leave as agripreneurs—innovative, independent, and ready to start their own agribusinesses.</p>
+                    <a href="about.html" class="btn btn-secondary rounded-pill px-5 py-3 text-white">More Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Why Choose Us Section -->
+    <div class="container-fluid py-5 bg-light">
+        <div class="container">
+            <div class="text-center mx-auto pb-5" style="max-width: 600px;" data-aos="fade-up">
+                <h5 class="text-primary">Why Choose Us</h5>
+                <h1>What Makes Us Different</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
+                    <div class="text-center p-4 bg-white rounded shadow-sm h-100 why-choose-card">
+                        <i class="fas fa-tractor fa-4x text-primary mb-3"></i>
+                        <h4>Working Farm</h4>
+                        <p class="mb-0">Learn on an active farm, not just a classroom. Real crops, real livestock, real decisions.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-center p-4 bg-white rounded shadow-sm h-100 why-choose-card">
+                        <i class="fas fa-chalkboard-teacher fa-4x text-primary mb-3"></i>
+                        <h4>Experienced Mentors</h4>
+                        <p class="mb-0">Guidance from farmers and agribusiness experts who have walked the path.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-center p-4 bg-white rounded shadow-sm h-100 why-choose-card">
+                        <i class="fas fa-hand-holding-heart fa-4x text-primary mb-3"></i>
+                        <h4>Post-Training Support</h4>
+                        <p class="mb-0">We stay with you after graduation—mentorship, networking, and troubleshooting.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="text-center p-4 bg-white rounded shadow-sm h-100 why-choose-card">
+                        <i class="fas fa-store fa-4x text-primary mb-3"></i>
+                        <h4>Market Linkages</h4>
+                        <p class="mb-0">Direct connections to local and commercial markets for your produce.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- About End -->
+    </div>
 
-
-        <!-- Services Start -->
-        <div class="container-fluid services py-5 mb-5">
-            <div class="container">
-                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
-                    <h5 class="text-primary">Our Curriculum</h5>
-                    <h1>Comprehensive Training for Agricultural Entrepreneurs</h1>
+    <!-- Services Start -->
+    <div class="container-fluid services py-5 mb-5">
+        <div class="container">
+            <div class="text-center mx-auto pb-5" style="max-width: 600px;" data-aos="fade-up">
+                <h5 class="text-primary">Our Curriculum</h5>
+                <h1>Comprehensive Training for Agricultural Entrepreneurs</h1>
+            </div>
+            <div class="row g-5 services-inner">
+                <!-- Repeat all 6 service cards with hover effect classes -->
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="0">
+                    <div class="services-item bg-light card-hover">
+                        <div class="p-4 text-center services-content">
+                            <div class="services-content-icon">
+                                <i class="fa fa-seedling fa-7x mb-4 text-primary icon-hover"></i>
+                                <h4 class="mb-3">Practical Farming</h4>
+                                <p class="mb-4">Hands-on training in crop production, livestock management, and sustainable farming practices on our working farm.</p>
+                                <a href="service.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="row g-5 services-inner">
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    <i class="fa fa-seedling fa-7x mb-4 text-primary"></i>
-                                    <h4 class="mb-3">Practical Farming</h4>
-                                    <p class="mb-4">Hands-on training in crop production, livestock management, and sustainable farming practices on our working farm.</p>
-                                    <a href="service.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
-                                </div>
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="services-item bg-light card-hover">
+                        <div class="p-4 text-center services-content">
+                            <div class="services-content-icon">
+                                <i class="fa fa-chart-line fa-7x mb-4 text-primary icon-hover"></i>
+                                <h4 class="mb-3">Business Planning</h4>
+                                <p class="mb-4">Entrepreneurship development, business planning, identifying opportunities, and strategic management skills.</p>
+                                <a href="service.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    <i class="fa fa-chart-line fa-7x mb-4 text-primary"></i>
-                                    <h4 class="mb-3">Business Planning</h4>
-                                    <p class="mb-4">Entrepreneurship development, business planning, identifying opportunities, and strategic management skills.</p>
-                                    <a href="service.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
-                                </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="services-item bg-light card-hover">
+                        <div class="p-4 text-center services-content">
+                            <div class="services-content-icon">
+                                <i class="fa fa-coins fa-7x mb-4 text-primary icon-hover"></i>
+                                <h4 class="mb-3">Financial Management</h4>
+                                <p class="mb-4">Financial literacy, budgeting, cost management, and accessing funding for agricultural enterprises.</p>
+                                <a href="service.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    <i class="fa fa-coins fa-7x mb-4 text-primary"></i>
-                                    <h4 class="mb-3">Financial Management</h4>
-                                    <p class="mb-4">Financial literacy, budgeting, cost management, and accessing funding for agricultural enterprises.</p>
-                                    <a href="service.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
-                                </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="services-item bg-light card-hover">
+                        <div class="p-4 text-center services-content">
+                            <div class="services-content-icon">
+                                <i class="fas fa-balance-scale fa-7x mb-4 text-primary icon-hover"></i>
+                                <h4 class="mb-3">Legal & Compliance</h4>
+                                <p class="mb-4">Understanding agricultural regulations, business registration, and compliance requirements for farm operations.</p>
+                                <a href="service.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    <i class="fas fa-balance-scale fa-7x mb-4 text-primary"></i>
-                                    <h4 class="mb-3">Legal & Compliance</h4>
-                                    <p class="mb-4">Understanding agricultural regulations, business registration, and compliance requirements for farm operations.</p>
-                                    <a href="service.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
-                                </div>
-                                
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="services-item bg-light card-hover">
+                        <div class="p-4 text-center services-content">
+                            <div class="services-content-icon">
+                                <i class="fa fa-store fa-7x mb-4 text-primary icon-hover"></i>
+                                <h4 class="mb-3">Marketing & Sales</h4>
+                                <p class="mb-4">Market access strategies, branding, pricing, and connecting farmers to local and commercial markets.</p>
+                                <a href="service.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    <i class="fa fa-store fa-7x mb-4 text-primary"></i>
-                                    <h4 class="mb-3">Marketing & Sales</h4>
-                                    <p class="mb-4">Market access strategies, branding, pricing, and connecting farmers to local and commercial markets.</p>
-                                    <a href="service.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    <i class="fas fa-industry fa-7x mb-4 text-primary"></i>
-                                    <h4 class="mb-3">Agro-processing</h4>
-                                    <p class="mb-4">Value addition, food processing techniques, innovation, and extending shelf-life of agricultural products.</p>
-                                    <a href="service.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
-                                </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="services-item bg-light card-hover">
+                        <div class="p-4 text-center services-content">
+                            <div class="services-content-icon">
+                                <i class="fas fa-industry fa-7x mb-4 text-primary icon-hover"></i>
+                                <h4 class="mb-3">Agro-processing</h4>
+                                <p class="mb-4">Value addition, food processing techniques, innovation, and extending shelf-life of agricultural products.</p>
+                                <a href="service.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Services End -->
+    </div>
+    <!-- Services End -->
 
+    <!-- CTA Banner -->
+    <div class="container-fluid cta-banner py-5 my-5">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center" data-aos="zoom-in">
+                    <h2 class="display-5 text-white mb-3">Ready to transform your future?</h2>
+                    <p class="text-white mb-4">Take the first step toward becoming an agripreneur. Request your application forms today.</p>
+                    <a href="contact.html" class="btn btn-primary btn-lg px-5 py-3 rounded-pill">Request Application</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <!-- Blog Start -->
+    <!-- Latest News / Blog Posts -->
+     <!-- Blog Start -->
         <div class="container-fluid blog py-5 mb-5">
             <div class="container">
                 <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
@@ -393,214 +440,202 @@
         </div>
         <!-- Blog End -->
 
-
-   <!-- Contact Start -->
-<div class="container-fluid py-5 mb-5">
-    <div class="container">
-        <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
-            <h5 class="text-primary">Get In Touch</h5>
-            <h1 class="mb-3">Request Your Enrollment Application</h1>
-            <p class="text-muted">Fill out the form below and we'll email you the application forms and program information.</p>
-            <p class="text-muted">Registration sessions: January - February and June - July</p>
-        </div>
-        <div class="contact-detail position-relative p-4 p-md-5">
-            <div class="row g-5 mb-5 justify-content-center">
-                <div class="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".3s">
-                    <div class="d-flex bg-light p-3 rounded">
-                        <div class="flex-shrink-0 btn-square bg-secondary rounded-circle" style="width: 64px; height: 64px;">
-                            <i class="fas fa-map-marker-alt text-white"></i>
+    <!-- Contact Start with Modern Form -->
+    <div class="container-fluid py-5 mb-5">
+        <div class="container">
+            <div class="text-center mx-auto pb-5" style="max-width: 600px;" data-aos="fade-up">
+                <h5 class="text-primary">Get In Touch</h5>
+                <h1 class="mb-3">Request Your Enrollment Application</h1>
+                <p class="text-muted">Fill out the form below and we'll email you the application forms and program information.</p>
+                <p class="text-muted">Registration sessions: January - February and June - July</p>
+            </div>
+            <div class="contact-detail position-relative p-4 p-md-5">
+                <div class="row g-5 mb-5 justify-content-center">
+                    <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="0">
+                        <div class="d-flex bg-light p-3 rounded">
+                            <div class="flex-shrink-0 btn-square bg-secondary rounded-circle" style="width: 64px; height: 64px;">
+                                <i class="fas fa-map-marker-alt text-white"></i>
+                            </div>
+                            <div class="ms-3">
+                                <h4 class="text-primary">Address</h4>
+                                <a href="https://maps.google.com/?q=R103+Old+Main+Road+Howick+KwaZulu+Natal" target="_blank" class="h5">R103 Old Main Road, Howick, Midlands, KwaZulu-Natal, South Africa</a>
+                            </div>
                         </div>
-                        <div class="ms-3">
-                            <h4 class="text-primary">Address</h4>
-                            <a href="https://maps.google.com/?q=R103+Old+Main+Road+Howick+KwaZulu+Natal" target="_blank" class="h5">R103 Old Main Road, Howick, Midlands, KwaZulu-Natal, South Africa</a>
+                    </div>
+                    <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="d-flex bg-light p-3 rounded">
+                            <div class="flex-shrink-0 btn-square bg-secondary rounded-circle" style="width: 64px; height: 64px;">
+                                <i class="fa fa-envelope text-white"></i>
+                            </div>
+                            <div class="ms-3">
+                                <h4 class="text-primary">Email Us</h4>
+                                <a class="h5" href="mailto:informationbooth1@gmail.com" target="_blank">informationbooth1@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="d-flex bg-light p-3 rounded">
+                            <div class="flex-shrink-0 btn-square bg-secondary rounded-circle" style="width: 64px; height: 64px;">
+                                <i class="fa fa-calendar text-white"></i>
+                            </div>
+                            <div class="ms-3">
+                                <h4 class="text-primary">Registration</h4>
+                                <a class="h5">Jan-Feb & Jun-July</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".5s">
-                    <div class="d-flex bg-light p-3 rounded">
-                        <div class="flex-shrink-0 btn-square bg-secondary rounded-circle" style="width: 64px; height: 64px;">
-                            <i class="fa fa-envelope text-white"></i>
+                <div class="row g-5">
+                    <div class="col-lg-6" data-aos="fade-right">
+                        <div class="p-4 p-md-5 h-100 rounded contact-map">
+                            <iframe class="rounded w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3462.626754000432!2d30.772449775346203!3d-29.78843237505349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef6fbbb5686a071%3A0x18c10a0cb6f555a2!2sOld%20Main%20Rd%20%26%20R103%2C%20Hillcrest%2C%203650!5e0!3m2!1sen!2sza!4v1771362206991!5m2!1sen!2sza" style="border:0; min-height:300px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <div class="text-center mt-3">
+                                <a href="https://maps.google.com/?q=R103+Old+Main+Road+Howick+KwaZulu+Natal" target="_blank" class="btn btn-secondary">Get Directions</a>
+                            </div>
                         </div>
-                        <div class="ms-3">
-                            <h4 class="text-primary">Email Us</h4>
-                            <a class="h5" href="mailto:informationbooth1@gmail.com" target="_blank">informationbooth1@gmail.com</a>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-left">
+                        <div class="p-4 p-md-5 rounded contact-form">
+                            <h4 class="mb-4">Request Application Forms</h4>
+                            <form id="contactForm" action="https://formspree.io/f/meelzrqb" method="POST">
+                                <input type="hidden" name="_subject" value="Application Form Request from SiminiAgri Website">
+                                
+                                <!-- Floating labels -->
+                                <div class="form-floating mb-4">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Full Name" required>
+                                    <label for="name">Your Full Name</label>
+                                    <div class="invalid-feedback">Please enter your name.</div>
+                                </div>
+                                <div class="form-floating mb-4">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email Address" required>
+                                    <label for="email">Your Email Address</label>
+                                    <div class="invalid-feedback">Please enter a valid email address.</div>
+                                </div>
+                                <div class="form-floating mb-4">
+                                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone Number" required>
+                                    <label for="phone">Phone Number (for follow-up)</label>
+                                    <div class="invalid-feedback">Please enter your phone number.</div>
+                                </div>
+                                <div class="form-floating mb-4">
+                                    <select class="form-select" id="interest" name="interest" required>
+                                        <option value="" selected disabled>Select...</option>
+                                        <option value="crop-production">Crop Production</option>
+                                        <option value="livestock">Livestock Management</option>
+                                        <option value="agroprocessing">Agro-processing</option>
+                                        <option value="business">Business Management</option>
+                                        <option value="not-sure">Not Sure / Need Guidance</option>
+                                    </select>
+                                    <label for="interest">Area of Interest</label>
+                                    <div class="invalid-feedback">Please select an option.</div>
+                                </div>
+                                <div class="form-floating mb-4">
+                                    <textarea class="form-control" id="message" name="message" placeholder="Tell us about yourself" style="height: 100px"></textarea>
+                                    <label for="message">Tell us a bit about your background or questions (optional)</label>
+                                </div>
+                                
+                                <!-- GDPR consent -->
+                                <div class="mb-4 form-check">
+                                    <input type="checkbox" class="form-check-input" id="gdpr" name="gdpr" required>
+                                    <label class="form-check-label" for="gdpr">I consent to Simini Agribusiness Academy storing my information to contact me regarding enrollment. (Required)</label>
+                                    <div class="invalid-feedback">You must consent to continue.</div>
+                                </div>
+                                
+                                <div class="text-start">
+                                    <button type="submit" class="btn bg-primary text-white py-3 px-5" id="submitBtn">Request Application</button>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".7s">
-                    <div class="d-flex bg-light p-3 rounded">
-                        <div class="flex-shrink-0 btn-square bg-secondary rounded-circle" style="width: 64px; height: 64px;">
-                            <i class="fa fa-calendar text-white"></i>
-                        </div>
-                        <div class="ms-3">
-                            <h4 class="text-primary">Registration</h4>
-                            <a class="h5">Jan-Feb & Jun-July</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeIn" data-wow-delay=".3s">
-                    <div class="p-4 p-md-5 h-100 rounded contact-map">
-                        <iframe class="rounded w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3462.626754000432!2d30.772449775346203!3d-29.78843237505349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef6fbbb5686a071%3A0x18c10a0cb6f555a2!2sOld%20Main%20Rd%20%26%20R103%2C%20Hillcrest%2C%203650!5e0!3m2!1sen!2sza!4v1771362206991!5m2!1sen!2sza" style="border:0; min-height:300px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeIn" data-wow-delay=".5s">
-                    <div class="p-4 p-md-5 rounded contact-form">
-                        <!-- Updated heading to be clear -->
-                        <h4 class="mb-4">Request Application Forms</h4>
-                        <p class="text-muted mb-4">Complete this form and we'll send you the enrollment application and information pack via email.</p>
-                        
-                        <!-- Formspree form with your unique endpoint -->
-                        <form action="https://formspree.io/f/meelzrqb" method="POST">
-                            <!-- Hidden field to set a custom email subject -->
-                            <input type="hidden" name="_subject" value="Application Form Request from SiminiAgri Website">
-                            
-                            <div class="mb-4">
-                                <input type="text" class="form-control border-0 py-3" name="name" placeholder="Your Full Name" required>
-                            </div>
-                            <div class="mb-4">
-                                <input type="email" class="form-control border-0 py-3" name="email" placeholder="Your Email Address" required>
-                            </div>
-                            <div class="mb-4">
-                                <input type="tel" class="form-control border-0 py-3" name="phone" placeholder="Phone Number (for follow-up)" required>
-                            </div>
-                            <div class="mb-4">
-                                <select class="form-control border-0 py-3" name="interest" required>
-                                    <option value="">Select Your Area of Interest</option>
-                                    <option value="crop-production">Crop Production</option>
-                                    <option value="livestock">Livestock Management</option>
-                                    <option value="agroprocessing">Agro-processing</option>
-                                    <option value="business">Business Management</option>
-                                    <option value="not-sure">Not Sure / Need Guidance</option>
-                                </select>
-                            </div>
-                            <div class="mb-4">
-                                <textarea class="w-100 form-control border-0 py-3" name="message" rows="4" cols="10" placeholder="Tell us a bit about your background or questions (optional)"></textarea>
-                            </div>
-                            <div class="text-start">
-                                <button type="submit" class="btn bg-primary text-white py-3 px-5">Request Application</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> 
-</div>
-<!-- Contact End -->
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!-- Footer Start -->
-      <!-- Footer Start -->
-<div class="container-fluid footer bg-white wow fadeIn" data-wow-delay=".3s">
-    <div class="container pt-5 pb-4">
-        <div class="row g-5">
-            <div class="col-lg-3 col-md-6">
-                <a href="index.html">
-                    <h1 class="text-dark fw-bold d-block">Simini<span class="text-secondary">Agri</span><br>Business</h1>
-                </a>
-                <p class="mt-4 text-dark">Training youth, women and emerging farmers to become innovative, profitable agricultural entrepreneurs. Agriculture is a pathway out of poverty.</p>
-                <div class="d-flex hightech-link">
-                    <!-- Changed btn-light to btn-outline-dark for visibility on white background -->
-                    <a href="" class="btn-outline-dark nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-facebook-f text-primary"></i></a>
-                    <a href="" class="btn-outline-dark nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-twitter text-primary"></i></a>
-                    <a href="" class="btn-outline-dark nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-instagram text-primary"></i></a>
-                    <a href="" class="btn-outline-dark nav-fill btn btn-square rounded-circle me-0"><i class="fab fa-linkedin-in text-primary"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <a href="#" class="h3 text-secondary">Quick Links</a>
-                <div class="mt-4 d-flex flex-column short-link">
-                    <!-- Changed text-white to text-dark -->
-                    <a href="about.html" class="mb-2 text-dark"><i class="fas fa-angle-right text-secondary me-2"></i>About us</a>
-                    <a href="service.html" class="mb-2 text-dark"><i class="fas fa-angle-right text-secondary me-2"></i>Our Curriculum</a>
-                    <a href="blog.html" class="mb-2 text-dark"><i class="fas fa-angle-right text-secondary me-2"></i>Community Impact</a>
-                    <a href="" class="mb-2 text-dark"><i class="fas fa-angle-right text-secondary me-2"></i>Partnerships</a>
-                    <a href="contact.html" class="mb-2 text-dark"><i class="fas fa-angle-right text-secondary me-2"></i>Enroll Now</a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <a href="#" class="h3 text-secondary">Our Focus</a>
-                <div class="mt-4 d-flex flex-column help-link">
-                    <a href="" class="mb-2 text-dark"><i class="fas fa-angle-right text-secondary me-2"></i>Youth Empowerment</a>
-                    <a href="" class="mb-2 text-dark"><i class="fas fa-angle-right text-secondary me-2"></i>Women in Agriculture</a>
-                    <a href="" class="mb-2 text-dark"><i class="fas fa-angle-right text-secondary me-2"></i>Emerging Farmers</a>
-                    <a href="" class="mb-2 text-dark"><i class="fas fa-angle-right text-secondary me-2"></i>Business Skills</a>
-                    <a href="" class="mb-2 text-dark"><i class="fas fa-angle-right text-secondary me-2"></i>Market Access</a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <a href="contact.html" class="h3 text-secondary">Contact Us</a>
-                <div class="text-dark mt-4 d-flex flex-column contact-link">
-                    <a href="#" class="pb-3 text-dark border-bottom border-primary"><i class="fas fa-map-marker-alt text-secondary me-2"></i> R103 Old Main Road, Howick, Midlands, KwaZulu-Natal, South Africa</a>
-<a href="mailto:informationbooth1@gmail.com" class="py-3 text-dark border-bottom border-primary"><i class="fas fa-envelope text-secondary me-2"></i> informationbooth1@gmail.com</a>
-                    <a href="#" class="py-3 text-dark border-bottom border-primary"><i class="fas fa-calendar text-secondary me-2"></i> Registration: Jan-Feb & Jun-Jul</a>
-                </div>
-            </div>
-        </div>
-        <!-- Changed hr color to dark border -->
-        <hr class="border-dark mt-5 mb-4">
-        <div class="row">
-            <div class="col-md-4 text-center text-md-start">
-                <span class="text-dark"><a href="#" class="text-secondary"><i class="fas fa-copyright text-secondary me-2"></i>Simini Agribusiness Academy</a>, All rights reserved.</span>
-            </div>
-            <div class="col-md-4 text-center">
-                <span class="text-dark">Website Developed & Deployed by <a href="https://shichabonkuna22-star.github.io/portfolio/" class="text-secondary" target="_blank">Shichabo Nkuna</a></span>
-            </div>
-            <div class="col-md-4 text-center text-md-end">
-                <span class="text-dark">Frontend By <a href="https://htmlcodex.com" class="text-secondary" target="_blank">HTML Codex</a></span>
             </div>
         </div>
     </div>
-</div>
-<!-- Footer End -->
-        <!-- Footer End -->
+    <!-- Contact End -->
 
+    <!-- Countdown Timer -->
+    <div class="container-fluid py-3 bg-dark text-white">
+        <div class="container text-center">
+            <p class="mb-0">Next registration deadline: <span id="countdown"></span></p>
+        </div>
+    </div>
 
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-secondary btn-square rounded-circle back-to-top"><i class="fa fa-arrow-up text-white"></i></a>
+    <!-- Footer -->
+    <div class="container-fluid footer bg-white">
+        <div class="container pt-5 pb-4">
+            <!-- same as before -->
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <a href="index.html">
+                        <h1 class="text-dark fw-bold d-block">Simini<span class="text-secondary">Agri</span><br>Business</h1>
+                    </a>
+                    <p class="mt-4 text-dark">Training youth, women and emerging farmers to become innovative, profitable agricultural entrepreneurs. Agriculture is a pathway out of poverty.</p>
+                    <div class="d-flex hightech-link">
+                        <a href="" class="btn-outline-dark nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-facebook-f text-primary"></i></a>
+                        <a href="" class="btn-outline-dark nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-twitter text-primary"></i></a>
+                        <a href="" class="btn-outline-dark nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-instagram text-primary"></i></a>
+                        <a href="" class="btn-outline-dark nav-fill btn btn-square rounded-circle me-0"><i class="fab fa-linkedin-in text-primary"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <a href="#" class="h3 text-secondary">Quick Links</a>
+                    <div class="mt-4 d-flex flex-column short-link">
+                        <a href="about.html" class="mb-2 text-dark"><i class="fas fa-angle-right text-secondary me-2"></i>About us</a>
+                        <a href="service.html" class="mb-2 text-dark"><i class="fas fa-angle-right text-secondary me-2"></i>Our Curriculum</a>
+                        <a href="blog.html" class="mb-2 text-dark"><i class="fas fa-angle-right text-secondary me-2"></i>Community Impact</a>
+                        <a href="" class="mb-2 text-dark"><i class="fas fa-angle-right text-secondary me-2"></i>Partnerships</a>
+                        <a href="contact.html" class="mb-2 text-dark"><i class="fas fa-angle-right text-secondary me-2"></i>Enroll Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <a href="#" class="h3 text-secondary">Our Focus</a>
+                    <div class="mt-4 d-flex flex-column help-link">
+                        <a href="" class="mb-2 text-dark"><i class="fas fa-angle-right text-secondary me-2"></i>Youth Empowerment</a>
+                        <a href="" class="mb-2 text-dark"><i class="fas fa-angle-right text-secondary me-2"></i>Women in Agriculture</a>
+                        <a href="" class="mb-2 text-dark"><i class="fas fa-angle-right text-secondary me-2"></i>Emerging Farmers</a>
+                        <a href="" class="mb-2 text-dark"><i class="fas fa-angle-right text-secondary me-2"></i>Business Skills</a>
+                        <a href="" class="mb-2 text-dark"><i class="fas fa-angle-right text-secondary me-2"></i>Market Access</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <a href="contact.html" class="h3 text-secondary">Contact Us</a>
+                    <div class="text-dark mt-4 d-flex flex-column contact-link">
+                        <a href="#" class="pb-3 text-dark border-bottom border-primary"><i class="fas fa-map-marker-alt text-secondary me-2"></i> R103 Old Main Road, Howick, Midlands, KwaZulu-Natal, South Africa</a>
+                        <a href="mailto:informationbooth1@gmail.com" class="py-3 text-dark border-bottom border-primary"><i class="fas fa-envelope text-secondary me-2"></i> informationbooth1@gmail.com</a>
+                        <a href="#" class="py-3 text-dark border-bottom border-primary"><i class="fas fa-calendar text-secondary me-2"></i> Registration: Jan-Feb & Jun-Jul</a>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-dark mt-5 mb-4">
+            <div class="row">
+                <div class="col-md-4 text-center text-md-start">
+                    <span class="text-dark"><a href="#" class="text-secondary"><i class="fas fa-copyright text-secondary me-2"></i>Simini Agribusiness Academy</a>, All rights reserved.</span>
+                </div>
+                <div class="col-md-4 text-center">
+                    <span class="text-dark">Website Developed & Deployed by <a href="https://shichabonkuna22-star.github.io/portfolio/" class="text-secondary" target="_blank">Shichabo Nkuna</a></span>
+                </div>
+                <div class="col-md-4 text-center text-md-end">
+                    <span class="text-dark">Frontend By <a href="https://htmlcodex.com" class="text-secondary" target="_blank">HTML Codex</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        
-        <!-- JavaScript Libraries -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/wow/wow.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/27729218956?text=Hello%20Simini%20Agribusiness%20Academy%2C%20I%27m%20interested%20in%20your%20programs." class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
-    </body>
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-secondary btn-square rounded-circle back-to-top"><i class="fa fa-arrow-up text-white"></i></a>
 
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
 </html>
